@@ -10,3 +10,6 @@ Building development envelopment for
 - DEPLOY
 - OPERATE
 - MONITOR
+
+
+bulid script here!!!
