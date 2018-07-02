@@ -1,0 +1,134 @@
+2017-07-17T16:57:18+07:00 INFO Home path: [.] Config path: [.] Data path: [D:\DevZone\POC\FastBatch\thirdParty\filebeat\data] Logs path: [.\logs]
+2017-07-17T16:57:18+07:00 INFO Setup Beat: filebeat; Version: 5.5.0
+2017-07-17T16:57:18+07:00 INFO Loading template enabled. Reading template file: filebeat.template.json
+2017-07-17T16:57:18+07:00 INFO Loading template enabled for Elasticsearch 2.x. Reading template file: filebeat.template-es2x.json
+2017-07-17T16:57:18+07:00 INFO Loading template enabled for Elasticsearch 6.x. Reading template file: filebeat.template-es6x.json
+2017-07-17T16:57:18+07:00 INFO Elasticsearch url: http://localhost:9200
+2017-07-17T16:57:18+07:00 INFO Activated elasticsearch as output plugin.
+2017-07-17T16:57:18+07:00 INFO Publisher name: NBHQKB014108
+2017-07-17T16:57:18+07:00 INFO Flush Interval set to: 1s
+2017-07-17T16:57:18+07:00 INFO Max Bulk Size set to: 50
+2017-07-17T16:57:18+07:00 INFO filebeat start running.
+2017-07-17T16:57:18+07:00 INFO No registry file found under: D:\DevZone\POC\FastBatch\thirdParty\filebeat\data\registry. Creating a new registry file.
+2017-07-17T16:57:18+07:00 INFO Loading registrar data from D:\DevZone\POC\FastBatch\thirdParty\filebeat\data\registry
+2017-07-17T16:57:18+07:00 INFO States Loaded from registrar: 0
+2017-07-17T16:57:18+07:00 INFO Loading Prospectors: 1
+2017-07-17T16:57:18+07:00 INFO Prospector with previous states loaded: 0
+2017-07-17T16:57:18+07:00 INFO Starting prospector of type: log; id: 17005676086519951868 
+2017-07-17T16:57:18+07:00 INFO Loading and starting Prospectors completed. Enabled prospectors: 1
+2017-07-17T16:57:18+07:00 INFO Starting Registrar
+2017-07-17T16:57:18+07:00 INFO Start sending events to output
+2017-07-17T16:57:18+07:00 INFO Starting spooler: spool_size: 2048; idle_timeout: 5s
+2017-07-17T16:57:48+07:00 INFO Non-zero metrics in the last 30s: registrar.writes=1
+2017-07-17T16:58:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T16:58:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T16:59:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T16:59:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:00:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:00:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:01:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:01:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:02:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:02:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:03:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:03:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:04:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:04:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:05:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:05:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:06:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:06:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:07:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:07:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:08:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:08:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:09:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:09:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:10:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:10:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:11:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:11:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:12:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:12:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:13:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:13:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:14:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:14:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:15:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:15:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:16:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:16:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:17:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:17:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:18:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:18:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:19:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:19:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:20:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:20:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:21:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:21:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:22:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:22:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:23:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:23:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:24:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:24:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:25:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:25:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:26:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:26:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:27:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:27:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:28:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:28:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:29:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:29:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:30:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:30:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:31:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:31:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:32:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:32:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:33:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:33:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:34:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:34:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:35:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:35:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:36:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:36:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:37:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:37:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:38:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:38:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:39:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:39:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:40:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:40:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:41:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:41:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:42:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:42:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:43:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:43:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:44:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:44:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:45:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:45:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:46:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:46:48+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:47:18+07:00 INFO No non-zero metrics in the last 30s
+2017-07-17T17:47:30+07:00 INFO Stopping filebeat
+2017-07-17T17:47:30+07:00 INFO Stopping Crawler
+2017-07-17T17:47:30+07:00 INFO Stopping 1 prospectors
+2017-07-17T17:47:30+07:00 INFO Prospector ticker stopped
+2017-07-17T17:47:30+07:00 INFO Stopping Prospector: 17005676086519951868
+2017-07-17T17:47:30+07:00 INFO Prospector channel stopped because beat is stopping.
+2017-07-17T17:47:30+07:00 INFO Crawler stopped
+2017-07-17T17:47:30+07:00 INFO Stopping spooler
+2017-07-17T17:47:30+07:00 INFO Stopping Registrar
+2017-07-17T17:47:30+07:00 INFO Ending Registrar
+2017-07-17T17:47:30+07:00 INFO Total non-zero values:  registrar.writes=2
+2017-07-17T17:47:30+07:00 INFO Uptime: 50m11.609s
+2017-07-17T17:47:30+07:00 INFO filebeat stopped.

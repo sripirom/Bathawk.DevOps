@@ -1,0 +1,41 @@
+
+# taiga htdvisser/taiga-fron-ist and taiga-back
+data:
+  image: tianon/true
+  restart: always
+  volumes:
+    - /usr/local/taiga/media
+    - /usr/local/taiga/static
+    - /usr/local/taiga/logs
+
+taigaback:
+  image: htdvisser/taiga-back:stable
+  restart: always
+  container_name: taiga-back
+  hostname: taiga-back
+  environment:
+    HOSTNAME: [HOSTNAME]
+    SECRET_KEY: [SECRET_KEY]
+    EMAIL_USE_TLS: 1
+    EMAIL_HOST: smtp.gmail.com
+    EMAIL_PORT: 587
+    EMAIL_HOST_USER: [EMAIL_HOST_USER]
+    EMAIL_HOST_PASSWORD: [EMAIL_HOST_PASSWORD]
+    POSTGRES_DB_NAME: taiga_db
+    POSTGRES_USER: taiga
+    POSTGRES_PASSWORD: [POSTGRES_PASSWORD]
+    POSTGRES_HOST: [POSTGRES_HOST]
+    POSTGRES_PORT: 5432
+  volumes_from:
+    - data
+taigafront:
+  image: htdvisser/taiga-front-dist:stable
+  restart: always
+  container_name: taiga-front
+  hostname: taiga-front
+  links:
+    - taigaback
+  volumes_from:
+    - data
+  ports:
+    - 0.0.0.0:80:80
